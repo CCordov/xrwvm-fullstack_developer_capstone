@@ -124,3 +124,19 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-item {
+    margin-bottom: 10px;
+}
+.contact-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.contact-item a:hover {
+    text-decoration: underline;
+}
